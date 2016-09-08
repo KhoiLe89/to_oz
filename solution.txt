@@ -1,0 +1,130 @@
+$ cd exercises/
+Tue Sep 06 17:03:22 ~/wdi/exercises
+$ mkdir House
+Tue Sep 06 17:03:33 ~/wdi/exercises
+$ cd House/
+Tue Sep 06 17:03:40 ~/wdi/exercises/House
+$ touch Dorothy Toto
+Tue Sep 06 17:04:04 ~/wdi/exercises/House
+$ cd ..
+Tue Sep 06 17:04:36 ~/wdi/exercises
+$ mkdir Oz
+Tue Sep 06 17:04:42 ~/wdi/exercises
+$ cd Oz/
+Tue Sep 06 17:04:52 ~/wdi/exercises/Oz
+$ touch Good_Witch_of_the_North Wicked_Witch_of_the_East Good_Witch_of_the_South Wicked_Witch_of_the_West
+Tue Sep 06 17:05:38 ~/wdi/exercises/Oz
+$ rm Wicked_Witch_of_the_East
+Tue Sep 06 17:05:53 ~/wdi/exercises/Oz
+$ cd ..
+Tue Sep 06 17:06:09 ~/wdi/exercises
+$ cd House
+Tue Sep 06 17:06:15 ~/wdi/exercises/House
+$ mv Dorothy Oz
+Tue Sep 06 17:06:55 ~/wdi/exercises/House
+$ ls -a
+. .. Oz Toto
+Tue Sep 06 17:06:58 ~/wdi/exercises/House
+$ cd Oz
+-bash: cd: Oz: Not a directory
+Tue Sep 06 17:07:10 ~/wdi/exercises/House
+$ cd ..
+Tue Sep 06 17:07:17 ~/wdi/exercises
+$ ls -a
+. .. House Oz
+Tue Sep 06 17:07:20 ~/wdi/exercises
+$ cd Oz
+Tue Sep 06 17:07:23 ~/wdi/exercises/Oz
+$ ls -a
+. Good_Witch_of_the_South
+.. Wicked_Witch_of_the_West
+Good_Witch_of_the_North
+Tue Sep 06 17:07:25 ~/wdi/exercises/Oz
+$ cd ..
+Tue Sep 06 17:07:48 ~/wdi/exercises
+$ cd House
+Tue Sep 06 17:07:52 ~/wdi/exercises/House
+$ mv Oz Dorothy
+Tue Sep 06 17:07:57 ~/wdi/exercises/House
+$ ls -a
+. .. Dorothy Toto
+Tue Sep 06 17:07:59 ~/wdi/exercises/House
+$ mv Dorothy ../Oz
+Tue Sep 06 17:08:42 ~/wdi/exercises/House
+$ ls -a
+. .. Toto
+Tue Sep 06 17:08:45 ~/wdi/exercises/House
+$ cd ..
+Tue Sep 06 17:08:49 ~/wdi/exercises
+$ cd Oz
+Tue Sep 06 17:08:50 ~/wdi/exercises/Oz
+$ ls -a
+. Good_Witch_of_the_North
+.. Good_Witch_of_the_South
+Dorothy Wicked_Witch_of_the_West
+Tue Sep 06 17:08:52 ~/wdi/exercises/Oz
+$ touch Scarecrow Tin_Man Cowardly_Lion mkdir Emerald_City
+Tue Sep 06 17:10:00 ~/wdi/exercises/Oz
+$ ls -a
+. Good_Witch_of_the_South
+.. Scarecrow
+Cowardly_Lion Tin_Man
+Dorothy Wicked_Witch_of_the_West
+Emerald_City mkdir
+Good_Witch_of_the_North
+Tue Sep 06 17:10:02 ~/wdi/exercises/Oz
+$ rm mkdir
+Tue Sep 06 17:10:27 ~/wdi/exercises/Oz
+$ rm Emerald_City
+Tue Sep 06 17:10:35 ~/wdi/exercises/Oz
+$ cd ..
+Tue Sep 06 17:10:43 ~/wdi/exercises
+$ mkdir Emerald_City
+Tue Sep 06 17:10:53 ~/wdi/exercises
+$ cd Oz
+Tue Sep 06 17:11:00 ~/wdi/exercises/Oz
+$ mv Scarecrow ../Emerald_City/
+Tue Sep 06 17:12:13 ~/wdi/exercises/Oz
+$ mv Tin_Man ../Emerald_City/
+Tue Sep 06 17:12:25 ~/wdi/exercises/Oz
+$ mv Cowardly_Lion ../Emerald_City/
+Tue Sep 06 17:12:36 ~/wdi/exercises/Oz
+$ cd ..
+Tue Sep 06 17:12:49 ~/wdi/exercises
+$ ls -a
+. .. Emerald_City House Oz
+Tue Sep 06 17:12:51 ~/wdi/exercises
+$ cd Emerald_City/
+Tue Sep 06 17:12:53 ~/wdi/exercises/Emerald_City
+$ ls -a
+. .. Cowardly_Lion Scarecrow Tin_Man
+Tue Sep 06 17:12:54 ~/wdi/exercises/Emerald_City
+$ cd ..
+Tue Sep 06 17:12:59 ~/wdi/exercises
+$ cd Oz
+Tue Sep 06 17:13:02 ~/wdi/exercises/Oz
+$ rm Wicked_Witch_of_the_West
+Tue Sep 06 17:13:17 ~/wdi/exercises/Oz
+$ touch Flying_Monkeys
+Tue Sep 06 17:13:30 ~/wdi/exercises/Oz
+$ ls -a
+. Dorothy Good_Witch_of_the_North
+.. Flying_Monkeys Good_Witch_of_the_South
+Tue Sep 06 17:13:31 ~/wdi/exercises/Oz
+$ cd ../Emerald_City/
+Tue Sep 06 17:16:33 ~/wdi/exercises/Emerald_City
+$ ls -a
+. .. Cowardly_Lion Scarecrow Tin_Man
+Tue Sep 06 17:16:34 ~/wdi/exercises/Emerald_City
+$ echo "diploma" >> Scarecrow
+Tue Sep 06 17:16:58 ~/wdi/exercises/Emerald_City
+$ ls -a
+. .. Cowardly_Lion Scarecrow Tin_Man
+Tue Sep 06 17:17:02 ~/wdi/exercises/Emerald_City
+$ open Scarecrow
+Tue Sep 06 17:18:59 ~/wdi/exercises/Emerald_City
+$ echo "heart shaped watch" >> Tin_Man
+Tue Sep 06 17:19:31 ~/wdi/exercises/Emerald_City
+$ echo "medal" >> Cowardly_Lion
+Tue Sep 06 17:19:42 ~/wdi/exercises/Emerald_City
+$
